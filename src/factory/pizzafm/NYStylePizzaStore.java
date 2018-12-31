@@ -1,8 +1,8 @@
-package factory;
+package factory.pizzafm;
 
 public class NYStylePizzaStore extends PizzaStore {
 
-    public Pizza createPizza(String type) {
+    protected Pizza createPizza(String type) {
         Pizza pizza = null;
 
         if (type.equals("cheese")) {
